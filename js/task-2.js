@@ -33,7 +33,10 @@ images.forEach((image) => {
   imgElement.src = image.url;
   imgElement.alt = image.alt;
 
-  imgElements.push(imgElement);
+  const imgListItem = document.createElement("li");
+  imgListItem.append(imgElement);
+
+  imgElements.push(imgListItem);
 });
 
 listContainer.append(...imgElements);
