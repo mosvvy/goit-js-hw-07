@@ -35,6 +35,44 @@ button:focus {
   background-color: rgba(108, 140, 255, 1);
 }
 
+/* task 1 */
+.item {
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+  background: #f6f6fe;
+  margin-bottom: 24px;
+}
+
+.item h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.item ul {
+  margin: 0;
+  padding: 0;
+}
+
+.item > ul > li {
+  /* width: 360px; */
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+  padding: 8px 16px;
+
+  border: #808080 1px solid;
+  border-radius: 4px;
+}
+
+.item > ul > li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
 /* task 2 */
 
 .gallery {
