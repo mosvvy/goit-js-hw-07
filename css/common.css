@@ -35,6 +35,15 @@ button:focus {
   background-color: rgba(108, 140, 255, 1);
 }
 
+/* task 3 */
+h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
 /* task-4 */
 
 .login-form {
@@ -49,11 +58,10 @@ label {
   flex-direction: column;
   gap: 8px;
   margin-bottom: 8px;
-  width: 360px;
 }
 
 input {
-  width: 100%;
+  width: 360px;
   height: 40px;
   border-color: #808080;
   border-radius: 4px;
